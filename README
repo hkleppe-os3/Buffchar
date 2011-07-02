@@ -1,0 +1,15 @@
+Buffchar - a tool to detect and quantify bufferbloat in a network path.
+
+The methods and implementation are results of the work of Danny Groenewegen and
+Harald Kleppe during their Masters thesis in System and Network Engineering -
+www.os3.nl
+
+
+Usage:
+ - configure database settings in buffchar.py
+ - run ``python buffchar.py -h example.com -d database_name''
+ - add this as a cronjob to be executed every fifth minute or so
+ - to plot results: ``python buffchar.py -p -d database_name''
+
+
+
